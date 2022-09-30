@@ -1,0 +1,51 @@
+header, footer {
+    font-size: 30px;
+}
+.colinha {
+    position: relative;
+    margin: auto;
+    background-color: rgba(0, 128, 0, 0.542);
+    width: 10cm;
+    text-align: center;
+    top: 2cm;
+}
+
+.candtitle {
+    font-size: 20px;
+}
+
+.numboxers {
+    display: inline;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.candinput {
+    font-size: 20px;
+}
+
+#depfed {
+    width: 1.6cm;
+}
+
+#depest {
+    width: 2cm;
+}
+
+
+#sen {
+    width: 1.4cm;
+}
+
+#gov {
+    width: 1.1cm;
+}
+
+#pres {
+    width: 1.1cm;
+}
+
+#inputs {
+    font-size: 20px;
+    text-align: center;
+}
