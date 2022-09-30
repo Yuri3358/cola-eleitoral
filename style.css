@@ -4,14 +4,14 @@ header, footer {
 .colinha {
     position: relative;
     margin: auto;
-    background-color: rgba(0, 128, 0, 0.542);
+    background-color: rgba(43, 200, 43, 0.563) !important;
     width: 10cm;
     text-align: center;
-    top: 2cm;
+    top: 1cm;
 }
 
 .candtitle {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .numboxers {
@@ -32,20 +32,48 @@ header, footer {
     width: 2cm;
 }
 
-
 #sen {
     width: 1.4cm;
 }
 
-#gov {
+#gov, #pres {
     width: 1.1cm;
 }
 
-#pres {
-    width: 1.1cm;
-}
 
 #inputs {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+}
+
+.callbuttons {
+    position: relative;
+    background-color: rgb(128, 199, 246);
+    font-size: 25px;
+    border-color: blue;
+    border-radius: 2px;
+}
+#generate, #print {
+    top: 0.4cm;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    
+    .colinha *, .colinha {
+        visibility: visible;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact ;
+    }
+    
+    .colinha {
+        position: fixed;
+        left: 0;
+        right: 0;
+        width: 10cm;
+        height: 16cm;
+        background-color: rgba(43, 200, 43, 0.563) 
+    }
 }
