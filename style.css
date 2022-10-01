@@ -1,9 +1,16 @@
-header, footer {
+header{
     font-size: 20px;
 }
+footer{
+    position: relative;
+    font-size: 20px;
+    left: 22cm;
+    top: 2cm;
+}
 
-body {
-    background-color: grey;
+#mainheader{
+    text-align: center;
+    font-size: 1cm;
 }
 
 .colinha {
