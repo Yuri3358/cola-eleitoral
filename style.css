@@ -1,5 +1,5 @@
 header{
-    font-size: 20px;
+    font-size: 30px;
 }
 footer{
     position: relative;
@@ -17,20 +17,20 @@ footer{
     position: relative;
     margin: auto;
     background-color: rgba(43, 200, 43, 0.563) !important;
-    width: 5cm;
+    width: 8cm;
     text-align: center;
     top: 1cm;
     border-radius: 10px;
 }
 
 .candtitle {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .numboxers {
     display: flexbox;
     margin: -18px;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 800;
 }
 
@@ -86,8 +86,8 @@ footer{
         position: fixed;
         left: 0;
         right: 0;
-        width: 5cm;
-        height: 8cm;
+        width: 8cm;
+        height: 10.8cm;
         background-color: rgba(43, 200, 43, 0.563) 
     }
 }
