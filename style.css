@@ -84,6 +84,7 @@ footer{
     
     .colinha {
         position: fixed;
+        border-radius: 0px;
         left: 0;
         right: 0;
         width: 8cm;
