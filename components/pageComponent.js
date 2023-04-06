@@ -20,6 +20,9 @@ const pageComponent = {
             const date = new Date().getFullYear()
             this.year = date
         },
+        printCard() {
+            window.print()
+        }
     }
 }
 
