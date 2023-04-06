@@ -1,0 +1,9 @@
+#candidates-form {
+    width: 10cm;
+    background-color: cadetblue;  
+    text-align: center  
+}
+
+label {
+    display: block;
+}
