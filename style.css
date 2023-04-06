@@ -1,11 +1,15 @@
 #candidates-form {
     width: 10cm;
     background-color: cadetblue;  
-    text-align: center  
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid black;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.645);  
 }
 
 label {
     display: block;
+    color: white;
 }
 
 .candinput {
