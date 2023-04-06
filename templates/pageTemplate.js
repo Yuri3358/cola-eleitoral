@@ -8,7 +8,7 @@ const pageTemplate = `
     </h3>
 </header>
 
-<div class="box" id="candidates-form">
+<div class="cand-box" id="candidates-form">
     <label for="president">Pres. da República</label>
     <input class="candinput" id="president" maxlength="2" v-model="candidates.president">
 
@@ -23,15 +23,29 @@ const pageTemplate = `
     
     <label for="depest">Deputado Estadual</label>
     <input class="candinput" id="depest" maxlength="5" v-model="candidates.state">
-</div>
 
-<div id="candidates-display">
-    <p>{{ candidates.president }}</p>
-    <p>{{ candidates.senator }}</p>
-    <p>{{ candidates.federal }}</p>
-    <p>{{ candidates.governor }}</p>
-    <p>{{ candidates.state }}</p>
-</div>
+    </div>
+
+    <div class="cand-box" id="candidates-display">
+        <h2>Eleições {{ year }}</h2>
+        <label for="pres">Presidente da Rep.</label>
+        <p class="cand-number" id="pres">{{ candidates.president }}</p>
+
+        <label for="sen">Senador da Rep.</label>
+        <p class="cand-number" id="sen">{{ candidates.senator }}</p>
+
+        <label for="sen">Senador da Rep.</label>
+        <p class="cand-number" id="fed">{{ candidates.federal }}</p>
+
+        <label for="sen">Senador da Rep.</label>
+        <p class="cand-number" id="governor">{{ candidates.governor }}</p>
+
+        <label for="sen">Senador da Rep.</label>
+        <p class="cand-number" id="state">{{ candidates.state }}</p>
+        <p>
+            <button class="btn btn-success" @click="">Imprimir</button>
+        </p>
+    </div>
 `
 
 exports = { pageTemplate }

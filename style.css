@@ -12,7 +12,7 @@ a {
     color: white;
 }
 
-#candidates-form {
+.cand-box {
     width: 10cm;
     background-color: cadetblue;  
     text-align: center;
@@ -20,16 +20,33 @@ a {
     border: 2px solid black;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.645);
     margin: auto;
+    margin-bottom: 10px;
 }
 
+#depest {
+    margin-bottom: 8px;
+}
 label {
     display: block;
     color: white;
+    font-size: 18px;
 }
 
 .candinput {
     border-radius: 8px;
     width: 2cm;
     text-align: center;
-    margin-bottom: 10px;
+}
+
+.btn-success {
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+#candidates-display {
+    background-color: rgb(41, 166, 166);
+}
+
+.cand-number {
+    font-size: 20px;
 }
