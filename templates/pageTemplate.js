@@ -1,12 +1,13 @@
 const pageTemplate = `
 <header id="app-header">
     <h2>
-        Cola Eleitoral {{ year }} {{ color }}
+        Cola Eleitoral {{ year }}
     </h2>
     <h3 id="watermark">Made by 
         <a target="_blank" href="https://github.com/Yuri3358">Yuri3358</a>
     </h3>
 </header>
+
 <div class="box" id="candidates-form">
     <label for="president">Pres. da República</label>
     <input class="candinput" id="president" maxlength="2" v-model="candidates.president">
