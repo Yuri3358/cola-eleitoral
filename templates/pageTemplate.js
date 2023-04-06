@@ -27,7 +27,7 @@ const pageTemplate = `
     </div>
 
     <div class="cand-box" id="candidates-display">
-        <h2>Eleições {{ year }}</h2>
+        <h2 id="card-title">Eleições {{ year }}</h2>
         <label for="pres">Presidente da Rep.</label>
         <p class="cand-number" id="pres">{{ candidates.president }}</p>
 
@@ -43,7 +43,7 @@ const pageTemplate = `
         <label for="sen">Senador da Rep.</label>
         <p class="cand-number" id="state">{{ candidates.state }}</p>
         <p>
-            <button class="btn btn-success" @click="">Imprimir</button>
+            <button class="btn btn-success" @click="printCard">Imprimir</button>
         </p>
     </div>
 `
