@@ -1,3 +1,17 @@
+#app-header {
+    background-color: rgb(0, 0, 112);
+    color: white;
+    text-align: center;
+}
+
+#watermark {
+    font-size: 20px;
+}
+
+a {
+    color: white;
+}
+
 #candidates-form {
     width: 10cm;
     background-color: cadetblue;  
