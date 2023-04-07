@@ -11,15 +11,17 @@
         border-radius: none;
         margin: auto;
         width: 8cm;
-        height: 9.2cm;
         box-shadow: none;
         border: none;
     }
-    label {
+    #card-title {
         font-size: 24px;
     }
+    label {
+        font-size: 22px!important;
+    }
     .cand-number {
-        font-size: 22px;
+        font-size: 20px!important;
     }
     .btn {
         visibility: hidden !important;
