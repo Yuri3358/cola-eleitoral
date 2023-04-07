@@ -1,0 +1,27 @@
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    #candidates-display, label, .cand-number, #card-title {
+        visibility: visible;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    #candidates-display {
+        border-radius: none;
+        margin: auto;
+        width: 8cm;
+        height: 9.2cm;
+        box-shadow: none;
+        border: none;
+    }
+    label {
+        font-size: 24px;
+    }
+    .cand-number {
+        font-size: 22px;
+    }
+    .btn {
+        visibility: hidden !important;
+    }
+}

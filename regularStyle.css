@@ -44,7 +44,7 @@ label {
     text-align: center;
 }
 
-.btn-success {
+.btn {
     border: 1px solid black;
     font-size: 16px;
 }
@@ -55,10 +55,11 @@ label {
 
 #card-title {
     color: white;
+    font-size: 20px;
 }
 
 .cand-number {
-    font-size: 14px;
+    font-size: 16px;
     color: wheat;
     font-weight: 600;
 }
@@ -68,32 +69,4 @@ label {
         background: none;
         background-color: teal;
     }    
-}
-
-@media print {
-    body * {
-        visibility: hidden;
-    }
-    #candidates-display, label, .cand-number, #card-title {
-        visibility: visible;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
-    }
-    #candidates-display {
-        border-radius: none;
-        margin: auto;
-        width: 8cm;
-        height: 11.5cm;
-        box-shadow: none;
-        border: none;
-    }
-    label {
-        font-size: 22px;
-    }
-    .cand-number {
-        font-size: 20px;
-    }
-    .btn {
-        visibility: hidden !important;
-    }
 }
