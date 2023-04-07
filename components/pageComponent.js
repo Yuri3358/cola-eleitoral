@@ -22,6 +22,14 @@ const pageComponent = {
         },
         printCard() {
             window.print()
+        },
+        clearInputs() {
+            const roles = Object.keys(this.candidates)
+            for (let i = 0; i <= roles.length; i++) {
+                roles.map(role => {
+                    this.candidates[role] = 0
+                })
+            }
         }
     }
 }

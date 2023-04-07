@@ -24,6 +24,9 @@ const pageTemplate = `
     <label for="depest">Deputado Estadual</label>
     <input class="candinput" id="depest" maxlength="5" v-model="candidates.state">
 
+    <p>
+        <button class="btn btn-warning" @click="clearInputs">Limpar</button>
+    </p>
     </div>
 
     <div class="cand-box" id="candidates-display">
