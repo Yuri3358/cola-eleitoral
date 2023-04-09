@@ -1,4 +1,4 @@
-const pageTemplate = `
+const pageTemplate = /*html*/`
 <header id="app-header">
     <h2>
         Cola Eleitoral {{ year }}
