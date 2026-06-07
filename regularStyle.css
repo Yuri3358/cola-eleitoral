@@ -1,10 +1,9 @@
 body {
-    background: linear-gradient(70deg, darkblue, teal);
-    background-color: rgb(1, 39, 111);
+    background-color: white;
 }
 
 #app-header {
-    background-color: rgb(0, 0, 177);
+    background-color: grey;
     color: white;
     text-align: center;
 }
@@ -19,7 +18,7 @@ a {
 
 .cand-box {
     width: 10cm;
-    background-color: cadetblue;  
+    background-color: grey;  
     text-align: center;
     border-radius: 4px;
     border: 2px solid black;
