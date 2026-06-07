@@ -9,10 +9,12 @@
     }
     #candidates-display {
         border-radius: none;
-        margin: auto;
         width: 8cm;
         box-shadow: none;
         border: none;
+        top: 0% !important;
+        left: 0% !important;
+        position: absolute;
     }
     #card-title {
         font-size: 24px;
