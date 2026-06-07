@@ -37,13 +37,13 @@ const pageTemplate = /*html*/`
         <label for="sen">Senador da Rep.</label>
         <p class="cand-number" id="sen">{{ candidates.senator }}</p>
 
-        <label for="sen">Senador da Rep.</label>
+        <label for="sen">Deputado Federal</label>
         <p class="cand-number" id="fed">{{ candidates.federal }}</p>
 
-        <label for="sen">Senador da Rep.</label>
+        <label for="sen">Governador</label>
         <p class="cand-number" id="governor">{{ candidates.governor }}</p>
 
-        <label for="sen">Senador da Rep.</label>
+        <label for="sen">Deputado Estadual</label>
         <p class="cand-number" id="state">{{ candidates.state }}</p>
         <p>
             <button class="btn btn-success" @click="printCard">Imprimir</button>
